@@ -18,7 +18,7 @@ RATIO_MULTIPLIER = 2.5352112676056335
 S = lambda X: driver.execute_script('return document.body.parentNode.scroll'+X)
 
 # Scale for PDF size. 1 for no change takes long time
-pdf_scaler = .01
+pdf_scaler = 0.1
 
 
 # Find full page dimensions regardless of scroll
